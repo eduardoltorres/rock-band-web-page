@@ -1,0 +1,44 @@
+/* General Styles  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 80px;
+  margin-left: 80px;
+  color: #141401;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Hero Section */
+
+.hero {
+  background-color: yellow;
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-2 {
+  height: 50vh;
+  background-color: #141401;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav {
+  text-transform: uppercase;
+  color: yellow;
+  display: flex;
+  margin: 5px 200px 0 0;
+}
+
+.nav li {
+  padding: 0 30px;
+}

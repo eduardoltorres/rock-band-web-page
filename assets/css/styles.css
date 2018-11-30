@@ -6,14 +6,13 @@
   box-sizing: border-box;
 }
 
-h1 {
-  font-size: 80px;
-  margin-left: 80px;
+html {
   color: #141401;
 }
 
-ul {
-  list-style: none;
+a {
+  text-decoration: none;
+  color: #141401;
 }
 
 /* Hero Section */
@@ -25,20 +24,42 @@ ul {
   align-items: flex-end;
 }
 
+.hero #navbar {
+  display: flex;
+  align-items: baseline;
+  position: sticky;
+  top: 0;
+}
+
+.hero #navbar #logo {
+  font-size: 100px;
+  margin: 0 100px 0 60px;
+  color: #141401;
+}
+
+.hero #navbar a {
+  padding: 0 25px 0;
+  font-size: 1.25em;
+}
+
+.hero h1 {
+  margin-right: 200px;
+}
+
 .hero-2 {
   height: 50vh;
   background-color: #141401;
-  display: flex;
-  justify-content: flex-end;
 }
 
-.nav {
-  text-transform: uppercase;
-  color: yellow;
-  display: flex;
-  margin: 5px 200px 0 0;
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 20px;
 }
 
-.nav li {
-  padding: 0 30px;
+/* Tours Section */
+
+.tours {
+  height: 1000px;
 }
